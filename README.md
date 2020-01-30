@@ -48,10 +48,19 @@ data_edge_map.pkl: This is the mapping between the edges in the network and the 
 ************** CODE *******************
 
 The code folder has the following files:
+
 rev2code.py: This is the main file that runs the rev2 algorithm for an input parameter setting. It outputs a fairness score and goodness score for each node. 
-run-rev2-all-params.sh: This file runs rev2 on all combinations of input parameter settings. 
+
+example: python rev2code.py [network_name] [a1] [a2] [b1] [b2] [r1] [r2] [r3]
+
+run-rev2-all-params.sh: This file runs rev2 on all combinations of input parameter settings.
+
+example: python run-rev2-all-params.sh [network_name]
+
 evaluate-individual.py: This file calculates the average precision score for fraudulent and benign user prediction. This uses the output of the rev2 code for one parameter setting.
+
 evaluate-combined.py: This file calculates the mean average precision score for fraudulent and benign user prediction. This uses the outputs of the rev2 code for all parameter settings.
+
 evaluate-combined-supervised.py: This file calculates the AUC score for the fraudulent user prediction. This uses all outputs of the rev2 code for all parameter settings. 
 
 
