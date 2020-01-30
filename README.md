@@ -16,10 +16,15 @@ Please cite the paper if you use the data or code in your research:
 }
 
 ************** Debug ******************
+
 Add requirements.txt
+
 Transform python2 to python3
+
 import detect ---> from chardet import detect
+
 inconsistent indentation problem:maybe this problem only in pycharm
+
 Fill in missing sections and comment
 
 ************** DATA ******************
