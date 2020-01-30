@@ -29,6 +29,8 @@ Fill in missing sections and comment
 
 Add formula annotation
 
+Details in https://blog.csdn.net/hesongzefairy/article/details/104103252
+
 ************** DATA ******************
 
 The data folder has 4 dataset folders, one for each dataset: alpha, otc, amazon, and epinions. We are unable to release similar data for the Flipkart network used in the paper as it is under a non-disclosure agreement.
