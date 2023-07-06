@@ -3,4 +3,4 @@ networkx==1.8.1
 unicodecsv==0.14.1
 chardet==3.0.4
 scikit-learn==0.20.3
-scipy==1.2.1
+scipy==1.10.0
